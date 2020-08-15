@@ -2,7 +2,7 @@ class Board
 
   attr_accessor :cells
 
-  initialize
+  def initialize
     @cells = []
   end
 end
